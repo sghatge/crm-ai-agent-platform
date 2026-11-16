@@ -1,0 +1,14 @@
+flowchart LR
+  A[API Request] --> B[Authentication and Policy Gate]
+  B --> C[Workflow Orchestrator]
+  C --> D[Planner]
+  D --> E[Allow-listed Tool Executor]
+  E --> F[CRM Adapter: Mock / Sandbox]
+  E --> G[Validator]
+  G --> H{Approval Required?}
+  H -->|Yes| I[Human Approval]
+  H -->|No| J[Result]
+  I --> J
+  C --> K[Audit Events]
+  C --> L[Tenant-scoped Memory / RAG]
+  J --> M[API Response]
