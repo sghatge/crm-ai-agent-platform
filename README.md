@@ -1,3 +1,15 @@
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/sghatge/sghatge/main/assets/portfolio/project-banner.svg" width="100%" alt="Sangram Ghatge engineering portfolio banner">
+
+**INDEPENDENT ENGINEERING PORTFOLIO · CRM AI AGENT PLATFORM**
+
+[GitHub Profile](https://github.com/sghatge) · [Portfolio](https://sghatge.github.io/adobe-campaign-v8-governance/)
+
+</div>
+
+---
+
 # CRM AI Agent Platform
 
 A runnable, platform-agnostic CRM operations workbench with eight task-specific agent workflows. This starter version works locally without external API credentials. It provides guided inputs, rule-based checks, and structured draft outputs; it does not call a live LLM or CRM API until you configure an integration.
